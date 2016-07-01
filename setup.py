@@ -29,7 +29,7 @@ def _get_uninstall_requires():
 
 setup(
 	name = "xiaoyi",
-	version = "0.0.2",
+	version = "0.0.1",
 	packages = find_packages('src'),
 	package_dir = {'':'src'},
 	zip_safe = False,
@@ -41,7 +41,7 @@ setup(
 	author_email = "liu.zhenghua@xiaoyi.com",
 	
 	license = "GPL",
-	keywords = ("xiaoyi", "test lib"),
+	keywords = ("xiaoyi", "test"),
 	platforms = platform.system(),
 	url = "www.xiaoyi.com",
 )
